@@ -1,10 +1,14 @@
 # Laravel Blade Starter Kit
 
-## Introduction
-
 A Blade port of the official Laravel Starter Kit.
 
 This starter kit features many of the conveniences you'd expect in a modern framework. It has beautiful UI components built with [Alpine.js](https://alpinejs.dev) and [Tailwind CSS](https://tailwindcss.com), route pre-fetching provided by [instant.page](https://instant.page), and Livewire-like reactivity powered by [Alpine AJAX](https://alpine-ajax.js.org).
+
+## Installation
+
+```bash
+laravel new my-app --using=imacrayon/blade-starter-kit
+```
 
 ## Want More Components?
 
