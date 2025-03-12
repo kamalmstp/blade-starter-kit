@@ -6,6 +6,8 @@ This starter kit features many of the conveniences you'd expect in a modern fram
 
 ## Installation
 
+Create a new Laravel application using this starter kit through the official [Laravel Installer](https://laravel.com/docs/12.x/installation#installing-php):
+
 ```bash
 laravel new my-app --using=imacrayon/blade-starter-kit
 ```
