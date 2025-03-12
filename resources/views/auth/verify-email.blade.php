@@ -11,13 +11,13 @@
     @endif
 
     <div class="flex flex-col items-center justify-between space-y-3">
-        <x-form method="post" method="{{ route('verification.store') }}">
+        <x-form method="post" action="{{ route('verification.store') }}">
             <x-button class="w-full">
                 {{ __('Resend verification email') }}
             </x-button>
         </x-form>
         <x-form method="post" action="{{ route('logout') }}">
-            <x-button>
+            <x-button variant="secondary">
                 {{ __('Log out') }}
             </x-button>
         </x-form>
