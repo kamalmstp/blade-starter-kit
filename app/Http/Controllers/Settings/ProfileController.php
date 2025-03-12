@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers\Settings;
 
-use App\Models\User;
-use Illuminate\Validation\Rule;
-use Illuminate\Http\Request;
-use Illuminate\View\View;
-use Illuminate\Http\RedirectResponse;
 use App\Http\Controllers\Controller;
+use App\Models\User;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Validation\Rule;
+use Illuminate\View\View;
 
 class ProfileController extends Controller
 {
