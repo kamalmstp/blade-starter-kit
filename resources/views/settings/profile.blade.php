@@ -14,9 +14,9 @@
                         <x-text class="mt-4">
                             {{ __('Your email address is unverified.') }}
 
-                            <x-link class="text-sm cursor-pointer" wire:click.prevent="resendVerificationNotification">
+                            <x-button variant="link" :formaction="route('verification.store')" name="_method" value="post">
                                 {{ __('Click here to re-send the verification email.') }}
-                            </x-link>
+                            </x-button>
                         </x-text>
 
                         @if (session('status') === 'verification-link-sent')
