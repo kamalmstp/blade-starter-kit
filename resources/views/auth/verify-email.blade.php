@@ -1,4 +1,4 @@
-<x-layouts.auth>
+<x-layouts.auth :title="__('Verification required')">
 <div class="mt-4 space-y-6">
     <x-text class="text-center">
         {{ __('Please verify your email address by clicking on the link we just emailed to you.') }}

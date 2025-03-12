@@ -1,4 +1,4 @@
-<x-layouts.auth>
+<x-layouts.auth :title="__('Confirm password')">
 <div class="space-y-6">
     <x-auth-header
         :title="__('Confirm password')"

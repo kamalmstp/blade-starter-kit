@@ -1,4 +1,4 @@
-<x-layouts.auth>
+<x-layouts.auth :title="__('Reset password')">
 <div class="space-y-6">
     <x-auth-header :title="__('Reset password')" :description="__('Please enter your new password below')" />
 
