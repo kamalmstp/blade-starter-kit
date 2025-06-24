@@ -1,8 +1,12 @@
 {
-  "name": "Laravel Starter Kit - Node",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:20-bullseye",
+  "name": "Laravel Codespace",
+  "image": "ghcr.io/devcontainers/images/features/node:20",
   "features": {
-    "ghcr.io/devcontainers/features/composer:1": {}
+    "ghcr.io/devcontainers/features/php:1": {
+      "version": "8.2"
+    },
+    "ghcr.io/devcontainers/features/composer:1": {},
+    "ghcr.io/devcontainers/features/common-utils:1": {}
   },
-  "postCreateCommand": "npm install"
+  "postCreateCommand": "composer install && npm install"
 }
